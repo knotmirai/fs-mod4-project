@@ -4,8 +4,7 @@
 
 ## The Project
 
-Every day people change from one mobile network to another. Commonly service providers are trying their best to maintain their current customers rather than obtaining a new one. In this project, the classifier will be built to predict the pattern of churn customers to the telecom company.
-
+Chest x-ray image analysis is the common and basis diagnosis method in medical field. In order to assess different pathologies, the imaging exam has been used for long time. An automation analysis can minimize the workloads, improve efficiency and reduce the potential of human errors. Thus, this project the CNN model will be built in order to classify chest x-ray images.
 
 ## The Dataset
 
@@ -22,16 +21,11 @@ https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 ## Summary
 
-From the analysis, the recommendation for the company are as below:
-
-1. There are only two plans for customers and they are not enough. The company should change to a better plan or add more.
-
-2. The most important factors are the total charge for daytime calls, evening calls, and international. This supports that churn customers are not satisfied with the cost.
-
-3. The current accuracy of the algorithm is 92.81%
-
+The current model can classify and distinguish Pneumonia patients and normal people very well. Both the accuracy of training and testing data is very high. When we deal with medical diagnosis, a false positive (i.e. prediciting illness when the patient is healthy) is less critical than a false negative (predicting healthiness when the patient is sick). The number of false negatives obtained with the model presented here is extremely low. Therefore, the machine developed here as a reliable ancillary tool for Pneumonia detection.
 
 ## Future Plan
 
-For the future, the more detail about charge should be included because it is the most concern factor for customers. Also, I should try another ME algorithm to ensure the best analysis.
-
+* Add more training data to ensure the accuracy.
+* Use Grid Search for better optimization.
+* Be able to categorize Pneumonia types.
+* Be able to classify other diseases from X-ray images.
