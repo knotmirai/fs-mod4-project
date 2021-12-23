@@ -9,7 +9,6 @@ Chest x-ray image analysis is the common and basis diagnosis method in medical f
 ## The Dataset
 
 Chest X-ray images (anterior-posterior) were selected from retrospective cohorts of pediatric patients of one to five years old from Guangzhou Women and Children’s Medical Center, Guangzhou. All chest X-ray imaging was performed as part of patients’ routine clinical care.
-https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia 
 
 ## Working File
 
