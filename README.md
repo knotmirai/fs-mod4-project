@@ -24,7 +24,7 @@ The current model can classify and distinguish Pneumonia patients and normal peo
 
 ## Future Plan
 
-* Add more training data to ensure accuracy.
+* Add more training data to ensure the performance.
 * Use Grid Search for better optimization.
 * Be able to categorize Pneumonia types.
 * Be able to classify other diseases from X-ray images.
